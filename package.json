@@ -1,0 +1,23 @@
+{
+  "name": "pz-gof",
+  "version": "1.0.0",
+  "description": "GoF Design Patterns implementation in TypeScript",
+  "main": "dist/examples/run-all.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node examples/run-all.ts",
+    "run:factory": "ts-node src/creational/factory-method/index.ts",
+    "run:builder": "ts-node src/creational/builder/index.ts",
+    "run:singleton": "ts-node src/creational/singleton/index.ts",
+    "run:adapter": "ts-node src/structural/adapter/index.ts",
+    "run:facade": "ts-node src/structural/facade/index.ts",
+    "run:decorator": "ts-node src/structural/decorator/index.ts",
+    "run:strategy": "ts-node src/behavioral/strategy/index.ts",
+    "run:observer": "ts-node src/behavioral/observer/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.0.0"
+  }
+}
